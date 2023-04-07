@@ -2,22 +2,19 @@ package com.comityj.securetalktalk;
 
 public class ChatDTO {
 
-    private String msg;
-    private String username;
+    private String msg, username, profileurl, useremail, aeskey, datetime;
     private Boolean encrypt;
-    private String profileurl;
-    private String useremail;
-    private String aeskey;
 
     public ChatDTO(){}
 
-    public ChatDTO(String username, String msg, boolean encrypt, String profileurl, String useremail, String aeskey){
-        this.username = username;       //username = this.username;
+    public ChatDTO(String username, String msg, boolean encrypt, String profileurl, String useremail, String aeskey, String datetime){
+        this.username = username;
         this.msg = msg;
         this.profileurl = profileurl;
         this.useremail = useremail;
         this.encrypt = encrypt;
         this.aeskey = aeskey;
+        this.datetime = datetime;
     }
 
     public String getMsg(){
@@ -59,5 +56,9 @@ public class ChatDTO {
     public String getAesKey(){ return aeskey; }
 
     public void setAesKey(String aeskey) { this.aeskey = aeskey; }
+
+    public String getDateTime(){ return datetime; }
+
+    public void setDateTime(String datetime) { this.datetime = datetime; }
 
 }

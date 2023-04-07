@@ -20,13 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".SignupActivity"></activity>
-        <activity android:name=".GoogleActivity"></activity>
-        <activity android:name=".ChatMenu"
-            android:windowSoftInputMode="stateHidden|adjustPan"></activity>       //키보드 안나오게
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RoomActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
         <activity android:name=".ChatActivity"
-            android:windowSoftInputMode="adjustPan"></activity>
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

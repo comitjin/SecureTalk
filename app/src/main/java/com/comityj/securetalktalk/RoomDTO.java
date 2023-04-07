@@ -1,22 +1,42 @@
 package com.comityj.securetalktalk;
 
-public class RoomDTO {
+import android.graphics.drawable.Drawable;
 
-    private String useruid;
-    private String chat;
+public class RoomDTO {
+    private Drawable roomicon;
+    private String roomname;
+    private String roommsg;
 
     public RoomDTO(){}
 
-    public RoomDTO(String useruid, String chat){
-        this.useruid = useruid;
-        this.chat = chat;
+    public RoomDTO(Drawable roomicon, String roomname, String roommsg){
+        this.roomicon = roomicon;
+        this.roomname = roomname;
+        this.roommsg = roommsg;
     }
 
-    public String getUser(){ return useruid; }
+    public Drawable getRoomicon(){
+        return this.roomicon;
+    }
 
-    public void setUser(String user){ this.useruid = useruid; }
+    public void setRoomicon(Drawable icon){
+        roomicon = icon;
+    }
 
-    public String getChat(){ return chat; }
+    public String getRoomname(){
+        return this.roomname;
+    }
 
-    public void setChat(String chat){ this.chat = chat; }
+    public void setRoomname(String name){
+        roomname = name;
+    }
+
+    public String getRoommsg(){
+        return this.roommsg;
+    }
+
+    public void setRoommsg(String msg){
+        roommsg = msg;
+    }
+
 }

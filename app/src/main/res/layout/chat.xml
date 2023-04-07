@@ -2,12 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/toolbar_chat"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,10 +35,11 @@
                 tools:layout_editor_absoluteX="1dp"
                 tools:layout_editor_absoluteY="1dp" />
         </LinearLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="17">
+            android:layout_height="50dp">
+
             <Button
                 android:id="@+id/aesbtn"
                 android:layout_width="50dp"
@@ -56,12 +67,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignBaseline="@+id/sendbtn"
+                android:layout_margin="3dp"
+                android:padding="5dp"
                 android:layout_toLeftOf="@+id/aesbtn"
                 android:layout_weight="1"
                 android:background="@drawable/chat_edittext"
-                android:padding="10dp"
-                android:textCursorDrawable="@drawable/color_81afef"
-                />
+                android:textCursorDrawable="@drawable/color_81afef" />
         </RelativeLayout>
 
     </LinearLayout>

@@ -6,67 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <Button
-        android:id="@+id/gologinbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go 로그인"
-        android:layout_centerHorizontal="true"/>-->
-
-    <!--<EditText
-        android:id="@+id/test1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="test"
-        android:layout_centerInParent="true"/>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/test2_ti"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/test1">
-
-        <EditText
-            android:id="@+id/test2_tiet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Test 입니다." />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/test_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/test"
-        android:layout_below="@+id/test2_ti"
-        android:layout_centerHorizontal="true"
-        android:onClick="Test"/>
-
-    <TextView
-        android:id="@+id/test_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_above="@+id/test1"
-        android:layout_centerHorizontal="true"/>-->
-
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/sc_icon_x"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/sc_icon_x" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" S e c u r e  T a l k "
-        android:textSize="25dp"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imageView"/>
+        android:text=" S e c u r e  T a l k "
+        android:textSize="25dp" />
 </RelativeLayout>

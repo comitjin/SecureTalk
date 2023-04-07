@@ -6,26 +6,15 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
-import org.w3c.dom.CDATASection;
-
 import java.util.ArrayList;
-import java.util.List;
 
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ChatAdapter extends BaseAdapter {
-
     ArrayList<ChatDTO> chatdto;
     LayoutInflater layoutInflater;
-    //List<String> chatlist;
 
-
-//    public ChatAdapter(ArrayList<ChatDTO> chatdto, List<String> chatlist,LayoutInflater layoutInflater){
     public ChatAdapter(ArrayList<ChatDTO> chatdto, LayoutInflater layoutInflater){
         this.chatdto = chatdto;
-        //this.chatlist = chatlist;
         this.layoutInflater = layoutInflater;
     }
 
@@ -45,47 +34,29 @@ public class ChatAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-
+    public View getView(int position, View view, ViewGroup viewGroup) {
         ChatDTO item = chatdto.get(position);
-        View itemview = null;                               //재활용할 뷰는 사용X
 
-        //itemview = layoutInflater.inflate(R.layout.chat_you, parent, false);
-/*        if(item.getUserEmail().equals(ChatActivity.useremail)){
-            itemview = layoutInflater.inflate(R.layout.chat_me, parent, false);
+        if(item.getUserEmail().equals(ChatActivity.useremail)){
+            view = layoutInflater.inflate(R.layout.chat_me, viewGroup, false);
         }else{
-            itemview = layoutInflater.inflate(R.layout.chat_you, parent, false);
-        }*/
-        itemview = layoutInflater.inflate(R.layout.chat_me, parent, false);
+            view = layoutInflater.inflate(R.layout.chat_you, viewGroup, false);
+        }
 
-        CircleImageView youpro = itemview.findViewById(R.id.chat_profile);
-        TextView youname = itemview.findViewById(R.id.chat_name);
-        TextView youmsg = itemview.findViewById(R.id.chat_msg);
-/*        TextView mename = itemview.findViewById(R.id.me_name);
-        TextView memsg = itemview.findViewById(R.id.me_msg);*/
+        TextView chatname = view.findViewById(R.id.chat_name);
+        TextView chatmsg = view.findViewById(R.id.chat_msg);
+        TextView chattime = view.findViewById(R.id.chat_time);
 
-        //Picasso.get().load(item.getProfileUrl().toString()).into(youpro);
-        //Picasso.get().load(item.getProfileUrl()).into(youpro);
-        youname.setText(item.getUsername());
-        youmsg.setText(item.getMsg());
-/*        mename.setText(item.getUsername());
-        memsg.setText(item.getMsg());*/
-
-/*        Picasso.get().load(chatDTO.getProfileUrl().toString()).into(youpro);
-        youname.setText(chatDTO.getUsername());
-        youmsg.setText(chatDTO.getMsg());*/
-
-        return itemview;
+        chatname.setText(item.getUsername());
+        chatmsg.setText(item.getMsg());
+        String temptime = item.getDateTime().substring(11, 16);
+        char hour0 = temptime.charAt(0);
+        if (hour0 == '0'){
+            temptime.substring(1);
+            chattime.setText(temptime);
+        }else {
+            chattime.setText(temptime);
+        }
+        return view;
     }
-
-    public void addItem(ChatDTO item) {
-        chatdto.add(item);
-    }
-    public void removeItem(ChatDTO item) {
-        chatdto.remove(item);
-    }
-    public void setItem(ChatDTO item) {
-        this.chatdto = chatdto;
-    }
-
 }

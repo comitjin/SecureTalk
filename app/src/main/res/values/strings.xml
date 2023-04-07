@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SecureTalkTalk</string>
-    <string name="test">test 버튼</string>
+<!--    <string name="test">test 버튼</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;
+    <string name="hello_blank_fragment">Hello blank fragment</string>-->
 </resources>

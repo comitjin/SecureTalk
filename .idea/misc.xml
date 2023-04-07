@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_add_20.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_add_24.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_chat_20.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_chat_24.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_perm_identity_20.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_perm_identity_24.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_search_20.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/round_search_24.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chat_edittext.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chatme_back.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chatmenu_edittext.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chatyou_back.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/color_81afef.xml" value="0.3953125" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/round_menu_20.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/round_menu_24.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/font/allfont.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/font/font_custom.xml" value="0.409375" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/font/font_style.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/activity_main.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat.xml" value="0.25" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat_me.xml" value="0.5" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat_you.xml" value="0.5" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chatmenu_edittxt.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/google.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/login.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/main.xml" value="0.2734375" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/newroom_dialog.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/signup.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/toolbar_chat.xml" value="0.24375" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/toolbar_main.xml" value="0.24375" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/menu/chat_popup.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/menu/toolbar.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yalu/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2490740740740741" />
+        <entry key="..\:/Users/yalu/AppData/Local/Android/Sdk/platforms/android-29/data/res/layout/simple_list_item_1.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2296875" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chat_edittext.xml" value="0.3015625" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chatme_back.xml" value="0.3015625" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/chatyou_back.xml" value="0.3015625" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/drawable/color_81afef.xml" value="0.3015625" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat_me.xml" value="0.13880445795339413" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/chat_menu.xml" value="0.25" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/google.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/login.xml" value="0.18439716312056736" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/newroom_dialog.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/layout/signup.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/menu/chat_popup.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2296875" />
+        <entry key="..\:/Users/yoyo/AndroidStudioProjects/SecureTalkTalk/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
